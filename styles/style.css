@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* navbar  */
+.app__icons{
+    display: flex;
+    justify-content: space-evenly;
+  background-color:#0b1124;
+    
+    
+}
+.icons{
+    font-size: 2rem;
+    color: #fff;
+}
+
+
+
+
+/* Main  */
+
+.app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color:#0a0d18;
+  color: #fff;
+}
+
+.time{
+    font-size: 5rem;
+}
+
+
+@media(max-width:500px){
+.time{
+    font-size: 4rem;
+}
+
+}
