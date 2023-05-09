@@ -12,6 +12,7 @@
   height: 100vh;
   display: grid;
   background-color: black;
+  color: #fff;
   grid-template-rows: 100px auto;
 }
 
@@ -33,10 +34,17 @@
 
 .icons{
   font-size: 2rem;
-  color: #fff;
   margin: 3%;
 }
 
 .clock__time{
   font-size: 7rem;
+}
+
+
+@media(max-width:500px){
+  .clock__time{
+    font-size: 4rem;
+  }
+
 }
