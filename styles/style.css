@@ -21,7 +21,7 @@
   grid-area: 1 / 1 / 1 / span 2;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .app__clock {
@@ -34,7 +34,6 @@
 
 .icons{
   font-size: 2rem;
-  margin: 3%;
 }
 
 .clock__time{
