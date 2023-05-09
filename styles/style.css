@@ -5,41 +5,38 @@
 }
 
 
-/* navbar  */
-.app__icons{
-    display: flex;
-    justify-content: space-evenly;
-  background-color:#0b1124;
-    
-    
-}
-.icons{
-    font-size: 2rem;
-    color: #fff;
-}
 
 
-
-
-/* Main  */
-
+/* main  */
 .app {
   height: 100vh;
+  display: grid;
+  background-color: black;
+  grid-template-rows: 100px auto;
+}
+
+.app__icons {
+  background-color:#212540;
+  grid-area: 1 / 1 / 1 / span 2;
   display: flex;
   align-items: center;
-  text-align: center;
-  background-color:#0a0d18;
+  justify-content: center;
+}
+
+.app__clock {
+  background-color:#2A2F4F;
+  grid-area: 2 / 1 / 2 / span 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons{
+  font-size: 2rem;
   color: #fff;
+  margin: 3%;
 }
 
-.time{
-    font-size: 5rem;
-}
-
-
-@media(max-width:500px){
-.time{
-    font-size: 4rem;
-}
-
+.clock__time{
+  font-size: 7rem;
 }
