@@ -32,20 +32,34 @@
     <main class="app">
         <div class="app__icons">
 
-            <p class="icons"><i class="fa-solid fa-clock"></i></p>
-            <p class="icons"><i class="fa-solid fa-clock"></i></p>
-            <p class="icons"><i class="fa-solid fa-clock"></i></p>
+            <i class=" icons material-symbols-outlined" data-tab="1">
+                alarm
+            </i>
+            <i class="icons material-symbols-outlined" data-tab="2">
+                schedule
+            </i>
+            <i class=" icons material-symbols-outlined" data-tab="3">
+                timer
+            </i>
+
         </div>
-        <div class="app__clock">
+        <div class="content app__content--1">
+            <h1 class="clock__timer">
+                Hello Timer
+            </h1>
+        </div>
+        <div class="content app__content--2 unactive--content">
             <h1 class="clock__time">
+            </h1>
 
-
+        </div>
+        <div class="content app__content--3 unactive--content ">
+            <h1 class="clock__alarm">
+                Hello Alarm
             </h1>
         </div>
 
-
     </main>
-
 
 
     <script src="scripts/script.js"></script>

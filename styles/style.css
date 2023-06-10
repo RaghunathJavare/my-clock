@@ -24,7 +24,7 @@
   justify-content: space-evenly;
 }
 
-.app__clock {
+.content {
   background-color:#2A2F4F;
   grid-area: 2 / 1 / 2 / span 2;
   display: flex;
@@ -33,17 +33,24 @@
 }
 
 .icons{
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .clock__time{
   font-size: 7rem;
 }
 
+.unactive--content{
+  display: none;
+}
+
 
 @media(max-width:500px){
   .clock__time{
     font-size: 4rem;
+  }
+  .icons{
+    font-size: 2rem;
   }
 
 }
